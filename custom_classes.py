@@ -19,3 +19,15 @@ class Calculator:
     def add(self, x, y):
         self._current_val = x + y
         return self._current_val
+
+    def calculate(self, x, operator, y):
+        if operator == "+":
+            return self.add(x, y)
+        elif operator == "-":
+            return self.subtract(x, y)
+        elif operator == "x":
+            return self.multiply(x, y)
+        elif operator == "÷":
+            return self.divide(x, y)
+        else:
+            raise ValueError("Invalid operator")
