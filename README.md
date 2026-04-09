@@ -1,4 +1,4 @@
-README.md içine şunu yapıştır:
+
 
 # EE471 Mini Project 2 – Voice Activated Calculator
 
